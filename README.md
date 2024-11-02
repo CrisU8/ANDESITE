@@ -35,11 +35,14 @@ Este repositorio contiene archivos grandes que están gestionados con **Git LFS 
 > [!IMPORTANT]
 > Copiar los datos en la carpeta data del repositorio: Asegúrate de que el archivo de datos, timeseries_data_cleaned.csv, esté ubicado en la ruta ./data/timeseries_data_cleaned.csv dentro de tu directorio de trabajo.
 
+3. Ejecute los notebooks en orden: EDA, luego RENDIMIENTO.
 
 ## Ejecucion del dashboard
 ```bash
 streamlit run app.py
 ```
+
+
 
 ![Dashboard Preview](img_1.png)
 
